@@ -15,20 +15,24 @@ cb3 = CB.CB3_sorteado
 le = LE.LE_sorteado
 le2 = LE.LE2_sorteado
 ld = LD.LD_sorteado
-ld2 = LD.LD_sorteado
+ld2 = LD.LD2_sorteado
 vol = VOL.VOL_sorteado
 vol2 = VOL.VOL2_sorteado
 mlg = MLG.MLG_sorteado
 mlg2 = MLG.MLG2_sorteado
 mle = MLE.MLE_sorteado
+mle2 = MLE.MLE2_sorteado
 mld = MLD.MLD_sorteado
+mld2 = MLD.MLD2_sorteado
 mat = MAT.MAT_sorteado
 mat2 = MAT.MAT2_sorteado
 ptd = PTD.PTD_sorteado
+ptd2 = PTD.PTD2_sorteado
 pte = PTE.PTE_sorteado
 sa = SA.SA_sorteado
 ca = CA.CA_sorteado
 ca2 = CA.CA2_sorteado
+ca3 = CA.CA3_sorteado
 
 coach = [c1, c2, c3, c4, c5]
 shuffle(coach)
@@ -63,7 +67,7 @@ if coach_sorteado == c1:
     {le2}
     {vol2}
     {mlg}
-    {ptd}
+    {ptd2}
     {ca2}
     
     ''')
@@ -84,10 +88,10 @@ elif coach_sorteado == c2:
     {le}
     {ld}
     {vol}
+    {mlg}
     {mle}
     {mld}
     {mat}
-    {ca2}
     {ca}
     
     Banco de reservas:
@@ -95,9 +99,9 @@ elif coach_sorteado == c2:
     {go2}
     {cb3}
     {ld2}
-    {vol2}
-    {mlg}
-    {ptd}
+    {mlg2}
+    {mle2}
+    {mld2}
     {ca2}
 
     ''')
@@ -149,8 +153,24 @@ elif coach_sorteado == c4:
     {go}
     {cb}
     {cb2}
+    {le}
+    {ld}
+    {mlg}
+    {mlg2}
+    {mle}
+    {mld}
+    {ca2}
+    {ca}
 
     Banco de reservas:
+
+    {go2}
+    {cb3}
+    {ld2}
+    {vol2}
+    {mle2}
+    {sa}
+    {ca3}
 
     ''')
 
@@ -163,11 +183,27 @@ elif coach_sorteado == c5:
     Jogadores Sorteados para compor o elenco
 
     Time Principal:
-    
+
     {go}
     {cb}
     {cb2}
-    
+    {le}
+    {ld}
+    {vol}
+    {mle}
+    {mld}
+    {mat}
+    {ca2}
+    {ca}
+
     Banco de reservas:
 
+    {go2}
+    {cb3}
+    {le2}
+    {vol2}
+    {mld2}
+    {sa}
+    {ca3}
+    
     ''')
